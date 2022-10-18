@@ -181,7 +181,6 @@ class ApplicationTabs extends React.Component {
       <div {...customProps} className={cx(['tabs-wrapper'])}>
         <div
           className={cx(['tabs-container', { 'is-calculating': this.isCalculating }, alignment])}
-          role="tablist"
           ref={this.setContainerNode}
         >
           {visibleTabs}
